@@ -4858,9 +4858,9 @@ img.mfp-img {
     .service + .why_we h2:after {
       display: none; }
 
-.service {
+.service_2 {
   padding: 70px 0 0 0; }
-  .service h3 {
+  .service_2 h3 {
     color: #333f45;
     font-size: 35px;
     font-weight: 700;
@@ -4868,30 +4868,30 @@ img.mfp-img {
     margin-bottom: 65px;
     text-align: center; }
     @media screen and (max-width: 991px) {
-      .service h3 {
+      .service_2 h3 {
         font-size: 30px;
         margin-bottom: 50px; } }
     @media screen and (max-width: 767px) {
-      .service h3 {
+      .service_2 h3 {
         font-size: 25px; } }
-  .service h4 {
+  .service_2 h4 {
     color: #333f45;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
     margin: 55px 0; }
     @media screen and (max-width: 991px) {
-      .service h4 {
+      .service_2 h4 {
         font-size: 28px; } }
     @media screen and (max-width: 767px) {
-      .service h4 {
+      .service_2 h4 {
         font-size: 28px;
         font-size: 22px; } }
-  .service .first_offset {
+  .service_2 .first_offset {
     margin-top: 0; }
-  .service .wrap {
+  .service_2 .wrap {
     padding-bottom: 0; }
-  .service .item {
+  .service_2 .item {
     margin-bottom: 30px;
     text-align: center;
     -webkit-box-flex: 1;
@@ -4901,44 +4901,44 @@ img.mfp-img {
     flex-basis: 25%;
     padding: 0 20px; }
     @media screen and (max-width: 991px) {
-      .service .item {
+      .service_2 .item {
         -ms-flex-preferred-size: 50%;
         flex-basis: 50%; } }
     @media screen and (max-width: 550px) {
-      .service .item {
+      .service_2 .item {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         margin-bottom: 20px; } }
     @media screen and (max-width: 550px) {
-      .service .item:last-child {
+      .service_2 .item:last-child {
         margin-bottom: 0; } }
-    .service .item .image {
+    .service_2 .item .image {
       position: relative;
       display: inline-block;
       width: 100%;
       top: -38px; }
       @media screen and (max-width: 1200px) {
-        .service .item .image {
+        .service_2 .item .image {
           top: -30px; } }
-    .service .item:first-child .image {
+    .service_2 .item:first-child .image {
       top: -12px; }
       @media screen and (max-width: 1200px) {
-        .service .item:first-child .image {
+        .service_2 .item:first-child .image {
           top: -8px; } }
-  .service .text {
+  .service_2 .text {
     color: #6b7276;
     font-size: 20px;
     font-weight: 400;
     line-height: 35px;
     margin-bottom: 40px; }
     @media screen and (max-width: 991px) {
-      .service .text {
+      .service_2 .text {
         font-size: 18px;
         line-height: 26px; } }
     @media screen and (max-width: 400px) {
-      .service .text {
+      .service_2 .text {
         font-size: 20px; } }
-  .service .color_green {
+  .service_2 .color_green {
     color: #9ee842;
     font-weight: 700; }
 
@@ -4949,6 +4949,55 @@ img.mfp-img {
     padding: 0; }
     .service + .why_we h2:after {
       display: none; }
+
+.service_3 .question {
+  font-weight: 700;
+  color: #6b7276;
+  font-size: 20px;
+  line-height: 35px; }
+
+.service_3 .item .image {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  top: -20px; }
+  @media screen and (max-width: 1200px) {
+    .service_3 .item .image {
+      top: -18px; } }
+
+.service_4 .question {
+  font-weight: 700; }
+
+.service_4 .wrap_1 .image {
+  top: -20px; }
+
+.service_4 .wrap_2 .item h5 {
+  height: 60px; }
+
+.service_4 .wrap_2 .item .image {
+  top: -40px; }
+
+.service_4 .wrap_3 {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .service_4 .wrap_3 .item {
+    width: 25%;
+    -webkit-box-flex: none;
+    -ms-flex-positive: none;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0; }
+    .service_4 .wrap_3 .item h5 {
+      height: 60px; }
+    .service_4 .wrap_3 .item .image {
+      top: -40px; }
+
+.service_5 .item h5 {
+  height: 60px; }
+
+.service_5 .item .image {
+  top: -38px; }
 
 /*=====================COMMON STYLES======================*/
 @font-face {
