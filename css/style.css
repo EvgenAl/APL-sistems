@@ -4858,6 +4858,98 @@ img.mfp-img {
     .service + .why_we h2:after {
       display: none; }
 
+.service {
+  padding: 70px 0 0 0; }
+  .service h3 {
+    color: #333f45;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+    text-align: center; }
+    @media screen and (max-width: 991px) {
+      .service h3 {
+        font-size: 30px;
+        margin-bottom: 50px; } }
+    @media screen and (max-width: 767px) {
+      .service h3 {
+        font-size: 25px; } }
+  .service h4 {
+    color: #333f45;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 55px 0; }
+    @media screen and (max-width: 991px) {
+      .service h4 {
+        font-size: 28px; } }
+    @media screen and (max-width: 767px) {
+      .service h4 {
+        font-size: 28px;
+        font-size: 22px; } }
+  .service .first_offset {
+    margin-top: 0; }
+  .service .wrap {
+    padding-bottom: 0; }
+  .service .item {
+    margin-bottom: 30px;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    padding: 0 20px; }
+    @media screen and (max-width: 991px) {
+      .service .item {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; } }
+    @media screen and (max-width: 550px) {
+      .service .item {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin-bottom: 20px; } }
+    @media screen and (max-width: 550px) {
+      .service .item:last-child {
+        margin-bottom: 0; } }
+    .service .item .image {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      top: -38px; }
+      @media screen and (max-width: 1200px) {
+        .service .item .image {
+          top: -30px; } }
+    .service .item:first-child .image {
+      top: -12px; }
+      @media screen and (max-width: 1200px) {
+        .service .item:first-child .image {
+          top: -8px; } }
+  .service .text {
+    color: #6b7276;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 40px; }
+    @media screen and (max-width: 991px) {
+      .service .text {
+        font-size: 18px;
+        line-height: 26px; } }
+    @media screen and (max-width: 400px) {
+      .service .text {
+        font-size: 20px; } }
+  .service .color_green {
+    color: #9ee842;
+    font-weight: 700; }
+
+.service + .why_we {
+  padding-top: 50px; }
+  .service + .why_we h2 {
+    text-transform: none;
+    padding: 0; }
+    .service + .why_we h2:after {
+      display: none; }
+
 /*=====================COMMON STYLES======================*/
 @font-face {
   font-family: 'geometriaregular';
