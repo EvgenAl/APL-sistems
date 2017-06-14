@@ -4038,7 +4038,7 @@ img.mfp-img {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-    margin: 55px 0; }
+    margin: 25px 0 55px 0; }
     @media screen and (max-width: 991px) {
       .about_company h4 {
         font-size: 28px; } }
@@ -4046,17 +4046,6 @@ img.mfp-img {
       .about_company h4 {
         font-size: 28px;
         font-size: 22px; } }
-  .about_company .info {
-    color: #6b7276;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 35px;
-    margin-bottom: 60px; }
-    @media screen and (max-width: 991px) {
-      .about_company .info {
-        font-size: 18px;
-        line-height: 26px;
-        margin-bottom: 50px; } }
   .about_company .sectors {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4097,17 +4086,20 @@ img.mfp-img {
   @media screen and (max-width: 1200px) {
     .about_company .plug {
       display: none; } }
-  .about_company .our_goals p {
+  .about_company .list_counter_1 {
+    margin-bottom: 40px; }
+  .about_company p.text {
     padding-left: 20px;
     color: #6b7276;
     font-size: 20px;
     font-weight: 400;
-    line-height: 35px; }
+    line-height: 35px;
+    padding-bottom: 35px; }
     @media screen and (max-width: 991px) {
-      .about_company .our_goals p {
+      .about_company p.text {
         font-size: 18px;
         line-height: 26px; } }
-    .about_company .our_goals p:first-child {
+    .about_company p.text:first-child {
       margin-bottom: 40px; }
   .about_company .our_task {
     padding-left: 20px;
@@ -4119,7 +4111,7 @@ img.mfp-img {
       .about_company .our_task {
         font-size: 18px;
         line-height: 26px; } }
-  .about_company .you_will_receive .total {
+  .about_company .total {
     padding-left: 20px;
     padding-top: 15px;
     color: #6b7276;
@@ -4127,7 +4119,7 @@ img.mfp-img {
     font-weight: 400;
     line-height: 35px; }
     @media screen and (max-width: 991px) {
-      .about_company .you_will_receive .total {
+      .about_company .total {
         font-size: 18px;
         line-height: 26px; } }
 
@@ -4158,19 +4150,61 @@ img.mfp-img {
         font-size: 18px;
         line-height: 26px;
         margin-bottom: 50px; } }
-  .serts .item_sert {
-    margin-bottom: 40px; }
-    @media screen and (max-width: 550px) {
-      .serts .item_sert {
-        width: 50%; } }
+  .serts .wrap_sert {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    @media screen and (max-width: 480px) {
+      .serts .wrap_sert {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; } }
+    .serts .wrap_sert .item_sert {
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -ms-flex-preferred-size: 16.6%;
+      flex-basis: 16.6%;
+      margin-bottom: 60px;
+      text-align: center; }
+      .serts .wrap_sert .item_sert .item_popup {
+        display: inline-block; }
+      @media screen and (max-width: 1200px) {
+        .serts .wrap_sert .item_sert {
+          -ms-flex-preferred-size: 33.3%;
+          flex-basis: 33.3%; } }
+      @media screen and (max-width: 767px) {
+        .serts .wrap_sert .item_sert {
+          -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
+      @media screen and (max-width: 480px) {
+        .serts .wrap_sert .item_sert {
+          -ms-flex-preferred-size: 100%;
+          flex-basis: 100%; } }
+  .serts .wrap_sert_2 {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; }
+    @media screen and (max-width: 480px) {
+      .serts .wrap_sert_2 {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; } }
+    .serts .wrap_sert_2 .item_sert {
+      -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+      flex-grow: 0; }
+      @media screen and (max-width: 480px) {
+        .serts .wrap_sert_2 .item_sert {
+          -ms-flex-preferred-size: 100%;
+          flex-basis: 100%; } }
 
-.serts + .why_we {
-  padding-top: 60px; }
-  .serts + .why_we h2 {
-    text-transform: none;
-    padding: 0; }
-    .serts + .why_we h2:after {
-      display: none; }
+.serts + .why_we h2 {
+  padding-top: 0; }
 
 .delivery {
   padding: 70px 0 0 0; }
@@ -4211,8 +4245,11 @@ img.mfp-img {
       .delivery .text {
         font-size: 18px;
         line-height: 26px; } }
-  .delivery .list_delivery li {
-    margin-bottom: 0; }
+  .delivery .list_delivery {
+    padding-left: 0; }
+    .delivery .list_delivery li {
+      margin-bottom: 0;
+      font-weight: 700; }
   .delivery .warning {
     padding: 50px 0; }
     @media screen and (max-width: 450px) {
@@ -4258,6 +4295,8 @@ img.mfp-img {
         @media screen and (max-width: 420px) {
           .delivery .warning .warning_info .warning__img_text {
             width: 100%; } }
+  .delivery .phone_link {
+    color: #6b7276; }
 
 .delivery + .why_we {
   padding-top: 50px; }
@@ -4353,7 +4392,7 @@ img.mfp-img {
           padding-left: 0; } }
 
 .guaranties + .why_we {
-  padding-top: 50px; }
+  padding-top: 60px; }
   .guaranties + .why_we h2 {
     text-transform: none;
     padding: 0; }
@@ -4516,6 +4555,8 @@ img.mfp-img {
         line-height: 26px; } }
   .vacancies .list_counter_2 {
     padding-left: 0; }
+    .vacancies .list_counter_2 li {
+      padding-left: 0; }
 
 .vacancies + .why_we {
   padding-top: 50px; }
@@ -5162,8 +5203,7 @@ input:focus {
     font-weight: 400;
     line-height: 35px;
     margin-bottom: 20px;
-    list-style-type: none;
-    padding-left: 10px; }
+    list-style-type: none; }
     @media screen and (max-width: 991px) {
       .list_counter_2 li {
         font-size: 18px;
@@ -5173,10 +5213,13 @@ input:focus {
       color: #a0cd6e;
       content: "•";
       font-size: 35px;
-      padding-right: 7px;
+      padding-right: 15px;
       position: relative;
       top: 5px;
-      left: -10px; }
+      left: 0px; }
+
+.top_section + .why_we {
+  padding-top: 40px; }
 
 /*================================menu toggle==============================*/
 .menu_toggle {
@@ -5611,7 +5654,7 @@ input:focus {
   padding: 50px 0 10px 0;
   border-top: 3px dashed #9ee842;
   border-bottom: 3px dashed #9ee842;
-  margin-top: 40px;
+  /*margin-top: 40px;*/
   margin-bottom: 80px; }
   @media screen and (max-width: 1200px) {
     .our_clients {
