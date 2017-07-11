@@ -55,7 +55,7 @@
 	<div class="bottom_header">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-4 col-sm-10 col-md-2"><a href="#" class='logo'>Лого</a></div>
+				<div class="col-xs-4 col-sm-10 col-md-2"><a href="#" class='logo'><img src="i/logo.png" alt="" class='img-responsive'></a></div>
 				<div class="col-xs-8 col-sm-2 col-md-2 burger burger_2">
 					<div class="menu_toggle">
 						<button class="menu">
@@ -69,13 +69,13 @@
 					<div class="row row_insert">
 						<div class="col-md-4 description"> ИТ решения на любой вкус</div>
 						<div class="col-md-3 mail">
-							<a href="mailto:email@mail.ru"><i class="fa fa-envelope" aria-hidden="true"></i>email@mail.ru</a>
+							<a href="mailto:info@aple-system.ru"><i class="fa fa-envelope" aria-hidden="true"></i>info@aple-system.ru</a>
 						</div>
 						<div class="col-md-3 phone">
 							<a href="tel:867689870054"><i class="fa fa-phone" aria-hidden="true"></i>8 6768 987 00 54</a>
 						</div>
 						<div class="col-md-2 callback">
-							<a href="#">заказать звонок</a>
+							<a href="#" data-toggle="modal" data-target="#myModal">заказать звонок</a>
 						</div>
 					</div>
 				</div>
@@ -88,39 +88,33 @@
 			<div class="container">
 				<div class="row">
 					<ul class="icon_nav">
-						<li class='col-md-2'>
+						<li>
 							<a href="#" class="icon_link link_1">
-								<img src="i/icons_main/icon_1.png" alt=""><br>
 								<span class='text'>Сервисное обслуживание</span>
 							</a>
 						</li>
-						<li class='col-md-2'>
+						<li>
 							<a href="#" class="icon_link link_2">
-								<img src="i/icons_main/icon_2.png" alt=""><br>
 								<span class='text'>Расходные  материалы</span>
 							</a>
 						</li>
-						<li class='col-md-2'>
+						<li>
 							<a href="#" class="icon_link link_3">
-								<img src="i/icons_main/icon_3.png" alt=""><br>
 								<span class='text'>ИТ-оборудование</span>
 							</a>
 						</li>
-						<li class='col-md-2'>
+						<li>
 							<a href="#" class="icon_link link_4">
-								<img src="i/icons_main/icon_4.png" alt=""><br>
 								<span class='text'>Офисная  техника</span>
 							</a>
 						</li>
 						<li class='col-md-2'>
 							<a href="#" class="icon_link link_5">
-								<img src="i/icons_main/icon_5.png" alt=""><br>
 								<span class='text'>Компьютеры и  комплектующие</span>
 							</a>
 						</li>
-						<li class='col-md-2'>
+						<li>
 							<a href="#" class="icon_link link_6">
-								<img src="i/icons_main/icon_6.png" alt=""><br>
 								<span class='text'>Программное обеспечение</span>
 							</a>
 						</li>
@@ -132,7 +126,7 @@
 		<div class="container">
 			<h3>Офисная техника</h3>
 			<p class="text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi repellat ex quod atque libero veritatis nemo aspernatur placeat id nam illo incidunt unde cupiditate fugit nostrum voluptatem laborum ab similique veniam, soluta, corporis modi. Ipsa consectetur cum unde assumenda. Facere omnis reiciendis commodi sequi nobis nam maiores labore ipsam quae ipsa voluptatibus, assumenda sapiente nisi, rem quibusdam quisquam. Ad autem nesciunt porro aliquam sit temporibus omnis quae itaque pariatur distinctio, quidem minima debitis, impedit quos incidunt hic sapiente esse necessitatibus inventore neque. Minima repudiandae dignissimos officiis exercitationem possimus enim odio quos nobis rem molestias, saepe provident reiciendis error tenetur perspiciatis.
+				Мы предоставляем любую офисную технику на Ваш выбор:
 			</p>
 			<div class="wrap">
 				<div class="item">
@@ -238,7 +232,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 col-md-2  item item_copy">
-				<a href="#" class='logo_link'>Лого</a>
+				<a href="#" class='logo_link'><img src="i/logo.png" alt="" class='img-responsive'></a>
 				<div class="copy">
 					<p>&copy;2017 aple-system.</p>
 					<p>Все права защищены.</p>
@@ -246,9 +240,9 @@
 			</div>
 			<div class="col-sm-6 col-md-3  item item_contacts">
 				<p><a href="tel:867689870054"><i class="fa fa-phone" aria-hidden="true"></i>8 6768 987 00 54</a></p>
-				<p><a href="mailto:email@mail.ru"><i class="fa fa-envelope" aria-hidden="true"></i>email@mail.ru</a></p>
+				<p><a href="mailto:info@aple-system.ru"><i class="fa fa-envelope" aria-hidden="true"></i>info@aple-system.ru</a></p>
 				<p>
-					<button class="btn"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Написать директору</button>
+					<button class="btn" data-toggle="modal" data-target="#myModal10"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Написать директору</button>
 				</p>
 			</div>
 			<div class="col-sm-6 col-md-4 item item_menu">
@@ -278,6 +272,43 @@
 		</div>
 	</div>
 </footer>
+
+<!--popups-->
+
+    	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    		<div class="modal-dialog" role="document">
+    			<div class="modal-content">
+    				<div class="modal-header">
+    					<h4 class="modal-title" id="myModalLabel">Введите Ваш телефон</h4>
+    				</div>
+    				<div class="modal-body">
+    					...
+    				</div>
+    				<div class="modal-footer">
+    					<button type="button" class="button_modal" data-dismiss="modal">Закрыть</button>
+    					<button type="button" class="button_modal">Отправить</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+    	<div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    		<div class="modal-dialog" role="document">
+    			<div class="modal-content">
+    				<div class="modal-header">
+    					<h4 class="modal-title" id="myModalLabel">Написать Директору</h4>
+    				</div>
+    				<div class="modal-body">
+    					...
+    				</div>
+    				<div class="modal-footer">
+    					<button type="button" class="button_modal" data-dismiss="modal">Закрыть</button>
+    					<button type="button" class="button_modal">Отправить</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script src="js/main.js"></script>
